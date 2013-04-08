@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>jposhopping</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>fileUpload</servlet-name>
+    <servlet-class>com.bjsxt.shopping.util.fileUpload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>homepagePicUpload</servlet-name>
+    <servlet-class>com.bjsxt.shopping.util.homepagePicUpload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>testServlet</servlet-name>
+    <servlet-class>com.bjsxt.shopping.util.testServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>fileReplace</servlet-name>
+    <servlet-class>com.bjsxt.shopping.util.fileReplace</servlet-class>
+  </servlet>
+     <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MainPicReplace</servlet-name>
+    <servlet-class>com.bjsxt.shopping.util.MainPicReplace</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>colorImageUpload</servlet-name>
+    <servlet-class>com.bjsxt.shopping.util.colorImageUpload</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>fileUpload</servlet-name>
+    <url-pattern>/servlet/fileUpload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>homepagePicUpload</servlet-name>
+    <url-pattern>/servlet/homepagePicUpload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>testServlet</servlet-name>
+    <url-pattern>/servlet/testServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>fileReplace</servlet-name>
+    <url-pattern>/servlet/fileReplace</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MainPicReplace</servlet-name>
+    <url-pattern>/servlet/MainPicReplace</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>colorImageUpload</servlet-name>
+    <url-pattern>/servlet/colorImageUpload</url-pattern>
+  </servlet-mapping>  
+</web-app>

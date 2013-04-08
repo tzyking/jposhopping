@@ -1,0 +1,287 @@
+/*page reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+@font-face {
+    font-family: "MAILART RUBBERSTAMP";
+    src: url(MAILR.TTF);
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+/*page reset end*/
+
+body {
+	margin: 0px;
+	padding: 10px 50px 0px 50px;
+	background-color: #ffffff;
+	color: #333;
+	font-family: Helvetica, Verdana, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+div#header {
+	position: relative;
+	margin-bottom: 5px;
+	height: 88px;
+	line-height: 32px;
+}
+
+ul{ 
+  list-style-type: none;
+}
+
+a#mailinglist {
+	font-family: MAILART RUBBERSTAMP;
+	font-size: 20px;
+	font-weight: bold;
+	color: #F23132;
+}
+
+
+div#header a {
+	text-decoration: none;
+	margin-left: 0px;
+	color: #333;
+	font-size: 12px;
+}
+
+div#header a:hover {
+	color: #a0303d;
+}
+
+
+
+div.contact {
+	position: relative;
+	margin-bottom: 5px;
+	margin-top: 0;
+	border: 10px solid #fff;
+	background-color: #fff;
+	text-align: center;
+	height: 630px;
+	line-height: 40px;
+}
+div.contact li {
+	position: relative;
+	margin-bottom: 0px;
+	margin-top: 0;
+	border: 0px;
+	text-align: center;
+	height: 20px;
+	
+}
+div.contact a {
+	text-decoration: none;
+	margin-bottom: 5px;
+	color: #F00;
+	font-size: 14px;
+}
+div.contact a.name {
+}
+
+div.contact a.maillink {
+	color: #666;
+}
+div.contact a.maillink:hover {
+	color: #F00;
+}
+
+div.category_label {
+  display: inline;
+	position: relative;
+	background-color: #a0303d;
+	padding: 5px 10px 5px 30px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	z-index: 1000;
+	left: -20px;
+	top: 45px;
+	/*margin-right: -50px;
+	margin-top: 20px;  */
+}
+
+div.category_label div.shade {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	bottom: -20px;
+	left: 0px;
+	border-top: 10px solid #671f27;
+	border-right: 10px solid #671f27;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
+
+div.container {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 5px;
+	margin-top: 0;
+	border: 10px solid #fff;
+	background-color: #fff;
+	z-index: 100;
+	height: 200px;
+	width: 300px;
+}
+
+div.container_banner {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 5px;
+	margin-top: 0;
+	border: 10px solid #fff;
+	background-color: #fff;
+	z-index: 100;
+	height: 520px;
+	text-align: left;
+	
+}
+
+div.category_container {
+	position: relative;
+	float: left;
+	width: 0px;
+  	/*cursor: move;*/
+  	border-right: 10px solid #ffffff;
+  	padding-right: 0px;
+}
+
+div.category_container_shopping{
+	position: relative;
+	float: left;
+	width: 0px;
+  /*cursor: move;*/
+  border-right: 10px solid #ffffff;
+  padding-right: 0px;
+}
+
+div.loader {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #ffffff;
+  width: 300px;
+  height: 300px;
+  background-image: url(loading.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 5000;
+  padding: 0px;
+  margin: 0px;
+}
+
+a.left, a.right {
+  display: block;
+	position: absolute;
+	font-weight: bold;
+	color: #000;
+	background-color: #fff;
+	z-index: 110;
+	font-size: 10px;
+	top: 50%;
+	margin-top: -25px;
+	line-height: 30px;
+	text-decoration: none;
+	display: none;
+}
+
+a.left:hover, a.right:hover {
+  color: #a0303d;
+}
+
+a.left:active, a.right:active {
+  color: #671f27;
+}
+
+a.left {
+	left: 0px;
+	padding: 0px 20px 0px 15px;
+}
+
+a.right {
+	right: 0px;
+	padding: 0px 15px 0px 20px;
+}
+
+div.photo {
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	z-index: 50;
+}
+div.shoppingphoto {
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	z-index: 50;
+}
+
+div.photo_overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #242424;
+	z-index: 90;
+}
+
+span.photo_info {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	background-color: #000000;
+	color: #ffffff;
+	padding: 5px;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+div#copyright {
+	line-height: 50px;
+	text-align: right;
+	font-size: 11px;
+}

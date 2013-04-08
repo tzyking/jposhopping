@@ -1,0 +1,56 @@
+div#header {
+	position: relative;
+	margin-bottom: 5px;
+	height: 88px;	
+}
+
+div.header-main-logo {
+	width: 40%; 
+	height: 100%;
+	float: left;
+ }
+
+ div.header-nav-bar-container {
+	width: 50%; 
+	float: right;
+	margin-bottom: 5px;
+ }
+ 
+ div#header ul {
+ 	position: relative;
+	left: 0;
+	display: block;
+	float: right;
+	list-style-type: none;
+ }
+ 
+ div#header ul li {
+ 	display: list-item;
+ 	line-height: 20px;
+ 	float: left;
+ } 
+ 
+ div#header ul > li > a {
+ 	padding: 10px 13px;
+ 	text-decoration: none;
+ }
+ 
+ div#header ul.nav a {
+	color: #333;
+	font-size: 12px;
+ }
+
+ div#header ul.nav a:hover {
+	color:  #a0303d;
+ }
+ 
+ ul.nav > li > a#mailinglist {
+ 	font-family: Mailart Rubberstamp;
+	font-size: 14px;
+	font-weight: bold;
+	color: #F23132;
+ }
+ 
+
+
+
