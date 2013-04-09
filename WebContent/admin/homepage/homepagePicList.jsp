@@ -16,11 +16,13 @@
   <head>
 
     
-    <title>John Patrick Organic: Home Page Pictures List</title>
+<title>John Patrick Organic: Home Page Pictures List</title>
 <link rel="stylesheet" type="text/css" href="../../css/productList.css">
 <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"></link>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+
+
 
 <script>
 	$(document).ready(function(){
@@ -50,13 +52,7 @@
 <a href="index.html"><img src="../../pic/logo.jpg" /></a>
 </li>
 
-<li></li>
-<li>
-</li>
-<li><a href="#" id="backhome"></a>
-</li>
-<li>
-	
+<li><a href="#" id="backhome">BACK HOME</a>
 </li>
 </ul>
 <ul>
@@ -87,7 +83,7 @@
 		   surfix = "</tr>";
 %>
 
-<td class="bodyTxtCenter"><img class="pic" src="../../sample_files/<%=category %>/<%=item %>.jpg"></td><%=surfix %>    
+<td class="bodyTxtCenter"><img class="pic" src="../../pic/<%=category %>/<%=item %>.jpg"></td><%=surfix %>    
 
 <%
      	index++;

@@ -13,8 +13,8 @@
 <title>John Patrick Organic:Collection </title>
 <link rel="stylesheet" type="text/css" href="css/look.css">
 <link rel="stylesheet" type="text/css" href="css/header.css">
-<script type="text/javascript" src="sample_files/jquery.js"></script>
-<script type="text/javascript" src="sample_files/jquery-ui.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
 <script type="text/javascript" src="sample_files/look.js"></script>
 <script type="text/javascript">
 

@@ -35,7 +35,7 @@ private static final int PAGE_SIZE = 90;
 <li><a href="#">PENDING</a></li> -->
 </ul>
     
-   
+<!--    
 		<br />    
         <br /> 
         <br />
@@ -43,7 +43,7 @@ private static final int PAGE_SIZE = 90;
         <a href="MainPicReplace.jsp">Edit Following Picture at HOME PAGE:</a><br/><br/>
         <img class="pic" src="../../../pic/SHOPbanner.jpg">
 		<br />
-		<br />
+		<br /> -->
 
 </div>
 
