@@ -57,16 +57,7 @@ int currentnumber = picsNumber.getCurrentNumberByCategoryName(category);
 <%
 } 
 %>
-<!-- 
-<tr>
-	<td class="bodyTxtRight">Zoom-in Pic for Product Page:</td>
-	<td class="bodyTxtLeft"><INPUT TYPE="FILE" NAME="zoomItem_b"></td>
-</tr>
-<tr>
-	<td class="bodyTxtRight">Thumb Pic for Shopping Cart:</td>
-	<td class="bodyTxtLeft"><INPUT TYPE="FILE" NAME="thumbItem"></td>
-</tr>
- -->
+
 </table>
 <br/>
 <table  class="productInfo" cellspacing="0">
