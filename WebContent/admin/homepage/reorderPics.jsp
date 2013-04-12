@@ -41,7 +41,7 @@
 	 while (st.hasMoreTokens()) {
 	 	String item = st.nextToken();
 %>
-      <li class="ui-state-default" id="<%=item %>"><img src="../../sample_files/<%=category %>/<%=item %>.jpg" /></li>    
+      <li class="ui-state-default" id="<%=item %>"><img src="../../pic/<%=category %>/<%=item %>.jpg" /></li>    
 <%} %>
 	</ul>
     <div class="clear"></div>

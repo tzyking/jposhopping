@@ -127,7 +127,7 @@ public class homepagePicUpload extends HttpServlet {
 				String uploadPath = "";
 				
 				//uploadPath =  context.getRealPath("/") + "sample_files/"+ category +"/"+item.getFieldName() + ".jpg";
-				uploadPath =  context.getRealPath("/") + "sample_files"+File.separator+ category +File.separator+item.getFieldName() + ".jpg";
+				uploadPath =  context.getRealPath("/") + "pic"+File.separator+ category +File.separator+item.getFieldName() + ".jpg";
 				
 				System.out.println("upload Path: " + uploadPath);
 				System.out.println(item.getFieldName());

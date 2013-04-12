@@ -85,7 +85,7 @@
 %>
   	
   	<div class="photo">
-		<img src="sample_files/other/b<%=item %>.jpg">
+		<img src="pic/other/b<%=item %>.jpg">
 		<div style="background-color: transparent;" class="photo_overlay">
 		</div>
 	</div>

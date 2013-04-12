@@ -182,7 +182,7 @@
 %>
 	<li class="ui-widget-content ui-corner-tr ui-draggable" id="<%=item %>">
 		<h5 class="ui-widget-header"><%=item %></h5>
-		<img src="../../sample_files/<%=category %>/<%=item %>.jpg" alt="The peaks of High Tatras" width="254" height="200">
+		<img src="../../pic/<%=category %>/<%=item %>.jpg" alt="The peaks of High Tatras" width="254" height="200">
 		<a href="<%=rooturl%>/sample_files/<%=category %>/<%=item %>.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
 		<a href="http://jqueryui.com/demos/droppable/link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
 	</li>

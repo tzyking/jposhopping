@@ -132,7 +132,7 @@
 	 			String item = st.nextToken();	
 %>
   	<div class="<%=divcls %>" id="<%=id %>">
-		<img src="sample_files/<%=p.getCategoryName() %>/<%=item %>.jpg">
+		<img src="pic/<%=p.getCategoryName() %>/<%=item %>.jpg">
 		<div style="background-color: transparent;" class="photo_overlay">
 		</div>
 	</div>
