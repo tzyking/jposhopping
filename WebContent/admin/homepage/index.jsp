@@ -17,7 +17,7 @@ private static final int PAGE_SIZE = 90;
     <title>John Patrick Organic:Product Management</title>
 <link rel="stylesheet" type="text/css" href="../../css/productList_admin.css">
 
-<script src="../../js/jquery.js" type="text/javascript"></script>
+<script src="../../jquery-ui-1.9.0.custom/js/jquery-1.8.2.js"></script>
 
 
 </head><body>

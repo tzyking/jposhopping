@@ -17,7 +17,7 @@ int currentnumber = picsNumber.getCurrentNumberByCategoryName(category);
     
     <title>John Patrick Organic:HomePage Pictures Upload</title>
 <link rel="stylesheet" type="text/css" href="../../css/productAdd.css">
-<script src="js/jquery.js"></script>
+<script src="../../jquery-ui-1.9.0.custom/js/jquery-1.8.2.js"></script>
 
 
 
