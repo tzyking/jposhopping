@@ -18,41 +18,20 @@
     
 <title>John Patrick Organic: Home Page Pictures List</title>
 <link rel="stylesheet" type="text/css" href="../../css/productList.css">
-<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"></link>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="../../jquery-ui-1.9.0.custom/css/ui-lightness/jquery-ui-1.9.0.custom.css">
+<script src="../../jquery-ui-1.9.0.custom/js/jquery-1.8.2.js"></script>
+<script src="../../jquery-ui-1.9.0.custom/js/jquery-ui-1.9.0.custom.js"></script>
+<script src="js/homepage_pic_list.js"></script>
 
-
-
-<script>
-	$(document).ready(function(){
-		$("#btnaddedit").click(function(){
-									//alert("yes");
-									//alert($("#picsamount").val());
-									var picsamount = $("#picsamount").val();
-									//alert(value);
-									window.location.href = "homepagePicUpload.jsp?category=<%=category%>"+"&picsamount="+picsamount;
-								});
-								
-		$("#btnedit").click(function(){
-									//alert("yes");
-									//alert($("#picsamount").val());
-									//var picsamount = $("#picsamount").val();
-									//alert(value);
-									window.location.href = "deletePics.jsp?category=<%=category%>";
-								});
-		
-	});
-</script>
 </head><body>
 
 <div id="header">
 <ul>
 <li style="text-align:left">
-<a href="index.html"><img src="../../pic/logo.jpg" /></a>
+<a href="../../index.jsp"><img src="../../pic/logo.jpg" /></a>
 </li>
 
-<li><a href="#" id="backhome">BACK HOME</a>
+<li><a href="index.jsp" id="backhome">BACK HOME</a>
 </li>
 </ul>
 <ul>
@@ -107,7 +86,7 @@
 <br/>
 
 <br/>
-
+ <input id="category_hidden_input" type="hidden" value="<%=category%>">
 </div>
 
 

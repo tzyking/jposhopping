@@ -31,20 +31,6 @@ private static final int PAGE_SIZE = 90;
 <li><a href="homepagePicList.jsp?category=shopping">Shopping Images Edit</a></li>
 <li><a href="homepagePicList.jsp?category=other">About Images Edit</a></li>
 
-<!-- <li><a href="#">PENDING</a></li>
-<li><a href="#">PENDING</a></li> -->
-</ul>
-    
-<!--    
-		<br />    
-        <br /> 
-        <br />
-		<br />
-        <a href="MainPicReplace.jsp">Edit Following Picture at HOME PAGE:</a><br/><br/>
-        <img class="pic" src="../../../pic/SHOPbanner.jpg">
-		<br />
-		<br /> -->
-
 </div>
 
 

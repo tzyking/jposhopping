@@ -1,0 +1,12 @@
+ article, aside, figure, footer, header, hgroup, 
+  menu, nav, section { display: block; }
+  
+  #reorder-gallery {width:1000px; padding:20px; border:1px solid #eee;}
+  #order-buttons {background-color:#eee; padding:10px;}
+  #sortable { list-style-type: none; margin: 0; padding: 0; }
+  #sortable li { margin: 3px 3px 3px 0; padding: 1px; float: left; width: 150px; height: 110px; font-size: 4em; text-align: center; }
+  #sortable li img {padding:1px; border:1px solid #ccc; cursor: pointer; width:140px; height:100px;}
+  
+  .ui-state-default, .ui-widget-content .ui-state-default{border:none; background:none;}
+  
+  .clear {clear:both;}
