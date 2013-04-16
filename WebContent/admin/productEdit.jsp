@@ -48,6 +48,7 @@ if(action != null && action.equals("update") ) {
 <li><a href="orderList.jsp">Order Management</a></li>
 <li><a href="inventoryList.jsp">Inventory Management</a></li>
 <li><a href="homepage/index.jsp">Homepage Management</a></li>
+</ul>
 <br/>
 <br/>
         <table  class="productInfo" cellspacing="0">
