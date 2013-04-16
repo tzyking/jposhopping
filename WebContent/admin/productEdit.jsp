@@ -32,19 +32,10 @@ if(action != null && action.equals("update") ) {
     
     <title>John Patrick Organic: Product Edit</title>
 <link rel="stylesheet" type="text/css" href="../css/productAdd.css">
-<script type="text/javascript" src="../js/jquery.js"></script>
-<script type="text/javascript" src="../js/jquery-ui.js"></script>
+<script src="../jquery-ui-1.9.0.custom/js/jquery-1.8.2.js" type="text/javascript"></script>
+<script src="../jquery-ui-1.9.0.custom/js/jquery-ui-1.9.0.custom.js" type="text/javascript"></script>
 <script type="text/javascript" src="../js/productEdit.js"></script>
-<!-- <script src="js/jquery.js" type="../text/javascript"></script> 
-<script type="text/javascript">
-  function refresh()
-  {
-          
-           window.location.href="productEdit.jsp?id=" + document.getElementsByName("id") + "&pageno=" + document.getElementsByName("pageno")
-  }
-  </script>
 
--->
 </head><body>
 
 <div id="header">
@@ -57,9 +48,6 @@ if(action != null && action.equals("update") ) {
 <li><a href="orderList.jsp">Order Management</a></li>
 <li><a href="inventoryList.jsp">Inventory Management</a></li>
 <li><a href="homepage/index.jsp">Homepage Management</a></li>
-<!-- <li><a href="#">PENDING</a></li>
-<li><a href="#">PENDING</a></li> -->
-</ul>
 <br/>
 <br/>
         <table  class="productInfo" cellspacing="0">

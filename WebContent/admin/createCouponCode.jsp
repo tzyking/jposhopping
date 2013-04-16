@@ -9,21 +9,9 @@
 		String strproductids = request.getParameter("products").trim();
 		String strcouponcode = request.getParameter("couponcode").trim();
 		
-		//System.out.println(strOff);
-		//System.out.println(strStartdate);
-		//System.out.println(strEnddate);
-		//System.out.println(strproductids);
-		//System.out.println("couponcode is: "+ strcouponcode);
-		//return;
-		//if(1 == 1)
-		//{
-		//	out.println("code used");
-		//	return;
-		//}
 		double off = Double.parseDouble(strOff);
 		
 		couponcode cp = new couponcode();
-		//String cpvalue = couponcode.codeGenerator();
 		
 		if(couponcode.checkExist(strcouponcode))
 		{

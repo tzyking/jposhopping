@@ -19,7 +19,6 @@ if(strid != null) {
 	id = Integer.parseInt(strid);
 	couponcode.deleteById(id);
 	couponcodeProduct.deleteByCouponcodeId(id);
-	//inventoryRecord.deletebyProductid(id);
 }
 if(strPageNo != null) {
 	pageNo = Integer.parseInt(strPageNo);
@@ -32,14 +31,12 @@ List couponCodes = new ArrayList();
 
 
 int totalRecords = couponcode.getAvailableCouponCode(couponCodes, pageNo, PAGE_SIZE);
-//int totalRecords = inventoryRecord.getInventoryRecords(products, pageNo, PAGE_SIZE);
 
 int totalPages = (totalRecords + PAGE_SIZE - 1) / PAGE_SIZE;
 if(pageNo > totalPages && totalRecords > 0){ 
 	pageNo = totalPages;
 	couponcode.getAvailableCouponCode(couponCodes, pageNo, PAGE_SIZE);
-	//inventoryRecord.getInventoryRecords(products, pageNo, PAGE_SIZE);
-}//if(orders.size()== 0) pageNo = totalPages;
+}
 
 %>
 
@@ -71,8 +68,6 @@ if(pageNo > totalPages && totalRecords > 0){
 <br/>
 <li><a href="mailingList.jsp">Mailing List</a></li>
 <li><a href="couponCodeList.jsp">Promotion Code</a></li>
-<!-- <li><a href="#">PENDING</a></li>
-<li><a href="#">PENDING</a></li> -->
 </ul>
     
    

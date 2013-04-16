@@ -9,7 +9,6 @@ String action = request.getParameter("action");
 String id = request.getParameter("id").trim();
 String pageno = request.getParameter("pageno").trim();
 
-//Product p = ProductMgr.getInstance().loadById(Integer.parseInt(id));
 List colors = color.getAvailableColorNames();
 List sizes = inventoryRecord.getAllSizeOption();
 
@@ -33,21 +32,11 @@ if(action != null && action.equals("add") ) {
   <head>
 
     
-    <title>John Patrick Organic: Product Edit</title>
+<title>John Patrick Organic: Product Edit</title>
 <link rel="stylesheet" type="text/css" href="../css/productAdd.css">
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script type="text/javascript" src="../js/jquery-ui.js"></script>
 <script type="text/javascript" src="../js/productEdit.js"></script>
-<!-- <script src="js/jquery.js" type="../text/javascript"></script> 
-<script type="text/javascript">
-  function refresh()
-  {
-          
-           window.location.href="productEdit.jsp?id=" + document.getElementsByName("id") + "&pageno=" + document.getElementsByName("pageno")
-  }
-  </script>
-
--->
 </head><body>
 
 <div id="header">
@@ -60,8 +49,6 @@ if(action != null && action.equals("add") ) {
 <li><a href="orderList.jsp">Order Management</a></li>
 <li><a href="inventoryList.jsp">Inventory Management</a></li>
 <li><a href="homepage/index.jsp">Homepage Management</a></li>
-<!-- <li><a href="#">PENDING</a></li>
-<li><a href="#">PENDING</a></li> -->
 </ul>
 <br/>
 <br/>

@@ -6,23 +6,7 @@
 
 
 <% 
-/*
-String action = request.getParameter("action");
-if(action != null && action.equals("create") ) {
-	String colorName = request.getParameter("colorName").trim().toUpperCase();	
-	color c = new color();
-	c.setName(colorName);
-	c.setIsDeleted(0);
-	int cid = c.add();
-	
-	//inventoryRecord.addByColorsProductid(colors, productid); 
-	
-	response.sendRedirect("colorImageUpload.jsp?colorName="+colorName);
-
-}
-*/
 List products = ProductMgr.getInstance().getAvailableProducts();
-
 %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -37,7 +21,6 @@ List products = ProductMgr.getInstance().getAvailableProducts();
 <script src="../jquery-ui-1.9.0.custom/js/jquery-1.8.2.js"></script>
 <script src="../jquery-ui-1.9.0.custom/js/jquery-ui-1.9.0.custom.js"></script>
 <script src="../jquery-ui-1.9.0.custom/js/jquery-ui-1.9.0.custom.min.js"></script>
-<!-- <script src="../js/jquery.js" type="text/javascript"></script> -->
 <script>
  $(document).ready(function() {
  		$('#gobacklinkarea').hide();
@@ -138,8 +121,6 @@ List products = ProductMgr.getInstance().getAvailableProducts();
 <li><a href="inventoryList.jsp">Inventory Management</a></li>
 <li><a href="homepage/index.jsp">Homepage Management</a></li>
 <li><a href="colorList.jsp">Color Management</a></li>
-<!-- <li><a href="#">PENDING</a></li>
-<li><a href="#">PENDING</a></li> -->
 </ul>
 <br/>
 <br/>
@@ -167,25 +148,7 @@ List products = ProductMgr.getInstance().getAvailableProducts();
 	<div id="resultarea"></div>
 	<div id="gobacklinkarea"><a href="couponCodeList.jsp"><h5>Go Back to Promotion List</h5></a></div>
 </div>           
-<!--<form name="form" action="colorAdd.jsp" method="post"> 
-<input type="hidden" name="action" value="create">
-<table  class="productInfo" cellspacing="0">
-<tr>
-	<td class="HedTxtLeft" colspan="2">Color INFORMATION</td>
-</tr>
-<tr>
-	<td class="bodyTxtRight">Color Name:</td>
-	<td class="bodyTxtLeft"><input id="colorName" name="colorName" value="" size="40" /></td>
-</tr>
-</table>
-<br/>
-<table  class="productInfo" cellspacing="0">
-<tr>
-	<td class="HedTxtRight"><input type="submit" name="NextStep" value="Next Step" /></td>
-</tr>
-</table>
-</form>
-</div>-->
+
 <div id="copyright">Copyright 2010 John Patrick Organic</div>
 
 

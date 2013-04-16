@@ -25,14 +25,12 @@ if(pageNo < 1) pageNo = 1;
 
 List products = new ArrayList();
 int totalRecords = ProductMgr.getInstance().getProducts(products, pageNo, PAGE_SIZE, true);
-//int totalRecords = inventoryRecord.getInventoryRecords(products, pageNo, PAGE_SIZE);
 
 int totalPages = (totalRecords + PAGE_SIZE - 1) / PAGE_SIZE;
 if(pageNo > totalPages){ 
 	pageNo = totalPages;
 	ProductMgr.getInstance().getProducts(products, pageNo, PAGE_SIZE, true);
-	//inventoryRecord.getInventoryRecords(products, pageNo, PAGE_SIZE);
-}//if(orders.size()== 0) pageNo = totalPages;
+}
 
 %>
 
@@ -45,7 +43,7 @@ if(pageNo > totalPages){
     <title>John Patrick Organic:Product Management</title>
 <link rel="stylesheet" type="text/css" href="../css/productList_admin.css">
 
-<script src="../js/jquery.js" type="text/javascript"></script>
+<script src="../jquery-ui-1.9.0.custom/js/jquery-1.8.2.js" type="text/javascript"></script>
 
 
 </head><body>
@@ -64,8 +62,6 @@ if(pageNo > totalPages){
 <br/>
 <li><a href="mailingList.jsp">Mailing List</a></li>
 <li><a href="couponCodeList.jsp">Promotion Code</a></li>
-<!-- <li><a href="#">PENDING</a></li>
-<li><a href="#">PENDING</a></li> -->
 </ul>
     
    
